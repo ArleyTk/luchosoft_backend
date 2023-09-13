@@ -3,9 +3,10 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "Maia",
-  "age": 20,
-  "email": "Juanda@gmail.com"
+  "idrol": 8005,
+  "nombrerol": "Mesero",
+  "descrol": "Este rol permitirá de recibir los pedidos",
+  "permisosrol": "Permiso 1"
 }
 
 ###
@@ -15,7 +16,7 @@ GET http://localhost:9000/api/users HTTP/1.1
 GET http://localhost:9000/api/users/64f1fec3ab58eb4a154b5fdb HTTP/1.1
 
 ###
-DELETE http://localhost:9000/api/users/64f1fe46ab58eb4a154b5fd9 HTTP/1.1
+DELETE http://localhost:9000/api/users/650086908d8b2c1e21a65e2c HTTP/1.1
 
 ###
 PUT http://localhost:9000/api/users/64f1fe46ab58eb4a154b5fd9 HTTP/1.1

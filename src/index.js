@@ -1,7 +1,10 @@
 const express = require("express");
+const cors = require("cors");
 const mongoose = require("mongoose");
 require("dotenv").config();
 const userRoute = require("./routes/user");
+const bodyParser = require('body-parser')//Recibir datos de formularios html
+
 
 // settings
 const app = express();
