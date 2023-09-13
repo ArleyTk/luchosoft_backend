@@ -3,10 +3,10 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-  "idrol": 8005,
-  "nombrerol": "Mesero",
-  "descrol": "Este rol permitirá de recibir los pedidos",
-  "permisosrol": "Permiso 1"
+  "idrol": 8008,
+  "nombrerol": "Desarrollador",
+  "descrol": "Este rol permitirá administrar todo el restaurante",
+  "permisosrol": "Permiso 1, Permiso 2, Permiso 3"
 }
 
 ###

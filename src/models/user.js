@@ -1,4 +1,7 @@
+
+const cors = require("cors");
 const mongoose = require("mongoose");
+const bodyParser = require('body-parser')//Recibir datos de formularios html
 
 const userSchema = mongoose.Schema({
   idrol: {
