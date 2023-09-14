@@ -10,12 +10,12 @@
   "keywords": [
     "express"
   ],
-  "author": "Diego Lopez",
+  "author": "Arley",
   "license": "ISC",
   "engines": {
   
     
-    "node": ">=20.6.1"
+    "node": ">=14.20.1"
     
     },
   
